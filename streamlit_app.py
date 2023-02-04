@@ -1,4 +1,5 @@
 import streamlit
+import pandas
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 streamlit.text('Omega 3 & Blueberry Oatmeal')
