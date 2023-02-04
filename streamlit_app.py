@@ -10,7 +10,7 @@ streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 
 # Display the table on the page.
 
-my fruit list = pandas.readcsv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit macros.txt")
-streamlit.multiselect("Pick some fruits:", list(my fruit list.index))
+my_fruit_list = pandas.readcsv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit macros.txt")
+streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 #display the table on the page
 streamlit.dataframe (my fruit list)
