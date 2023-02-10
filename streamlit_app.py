@@ -43,9 +43,6 @@ try:
 except URLError as e:
   streamlit.error()
 
-back_from_function = get_fruityvice_data(fruit_choice)
-streamlit.dataframe(back from function)
-
 import snowflake.connector
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
